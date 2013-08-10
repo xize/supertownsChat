@@ -1,0 +1,24 @@
+name: supertownsChat
+version: 1.0
+description: a chat plugin for supertowns
+author: Xeph0re
+authors: [] 
+website:
+
+main: eu.supertowns.supertownsChat.chat
+database: false
+depend: []
+softdepend: [supertowns]
+
+commands:
+# supertowns:
+#    description: allows you to teleport to your home
+#    aliases: [st]
+#    permission:
+#    permission-message:
+
+permissions:
+#  supertowns.random:
+#    description: Gives access to all plugin commands
+#    children:
+#      supertowns.randomSuper: true
