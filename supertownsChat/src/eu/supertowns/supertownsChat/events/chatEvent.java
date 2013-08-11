@@ -22,9 +22,9 @@ public class chatEvent implements Listener {
 			e.setFormat(ChatColor.RED + "(" + ChatColor.GRAY + "st" + ChatColor.RED + ")" + e.getFormat());
 		} else {
 			if(plugin.getMainPlugin().getCoreApi().isMayor(e.getPlayer(), town)) {
-				e.setFormat(ChatColor.RED + "(" + ChatColor.GRAY + "st" + ChatColor.RED + ")" + ChatColor.GOLD + "(" + ChatColor.GRAY + town + ChatColor.GOLD + ")" + e.getFormat());
+				e.setFormat(ChatColor.RED + "(" + ChatColor.GRAY + "st-mayor" + ChatColor.RED + ")" + ChatColor.GOLD + "(" + ChatColor.GRAY + town + ChatColor.GOLD + ")" + e.getFormat());
 			} else {
-				e.setFormat(ChatColor.RED + "(" + ChatColor.GRAY + "st" + ChatColor.RED + ")" + ChatColor.WHITE + "(" + ChatColor.GRAY + town + ChatColor.WHITE + ")" + e.getFormat());	
+				e.setFormat(ChatColor.RED + "(" + ChatColor.GRAY + "st-resident" + ChatColor.RED + ")" + ChatColor.WHITE + "(" + ChatColor.GRAY + town + ChatColor.WHITE + ")" + e.getFormat());	
 			}
 		}
 	}
